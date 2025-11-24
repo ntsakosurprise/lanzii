@@ -1,11 +1,44 @@
 {
-  "name": "lanzii",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+	"name": "lanzii",
+	"version": "1.0.0",
+	"description": "Lanzii is a minimal and flexible wrapper for creating API services with optional request interception",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./index.js",
+			"require": "./dist/index.cjs",
+			"default": "./index.js"
+		}
+	},
+	"license": "MIT",
+	"scripts": {
+		"test": "npm run root:tests && npm run test --workspaces --if-present",
+		"lint": "eslint",
+		"tarball": "node local-builds/runCli.js tarball"
+		
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ntsakosurprise/lanzii"
+	},
+	"author": {
+		"email": "hi@iiprodakts.io",
+		"name": "IIprodakts",
+		"url": "http://iiprodakts.io"
+	},
+	"contributors": [
+		{
+			"name": "Surprise Mashele",
+			"email": "mashelesepru@gmail.com",
+			"website": "https://www.nstakosurprise.com"
+		}
+	],
+	"homepage": "https://github.com/iiprodakts/lanzii#readme",
+	"readme": "See README file",
+	"readmeFilename": "README.md",
+	"bugs": {
+		"url": "https://github.com/ntsakosurprise/anzii/issues"
+	}
+
+
 }
