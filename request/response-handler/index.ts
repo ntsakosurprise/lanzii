@@ -1,4 +1,4 @@
-import {log} from 'logr/main';
+
 import ResponseError from '../error-handler/response';
 import {STATUS_CODES} from './constants';
 import ERROR_MESSAGES from './errorMessages';
@@ -8,8 +8,7 @@ class ApiResponse {
   constructor() {}
 
   analyseTransformResponse(response: any) {
-    // console.log('THE RAW RESPONSE', response);
-    // console.log('THE RESPONSE AS TEXT', response.json());
+  
     if (response?.ok) {
       let text = response.text();
 
