@@ -4,10 +4,9 @@ const request = (props: any) => {
 
   // eslint-disable-next-line no-async-promise-executor
   return new Promise(async resolve => {
-    // //console.log('THE SERVICE FROM METHOD ', service);
-    console.log('REQUESTING WITH REQUEST');
+  
+    
     let requestOutcome = await req.callApi();
-    console.log('THE REQUEST OUTCOME', requestOutcome);
     resolve(requestOutcome);
     // .then((response: any) => {
     //   resolve(response);
