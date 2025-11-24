@@ -30,9 +30,9 @@ class ApiRequest {
           resolve(result);
         })
         .catch((err: any) => {
-          console.log('THE CAOUGHT ERROR', err);
+          
           if (!err.native) {
-            console.log('THE ERROR IS NONE NATIVE');
+           
             res.throwApiError({
               message: err?.message,
               errorType: 'network',
@@ -46,7 +46,7 @@ class ApiRequest {
             //   }),
             // );
           } else {
-            console.log('THE ERROR RESOLVES');
+           
             resolve(err);
           }
         })

@@ -15,7 +15,7 @@ class ApiResponse {
       return text.then((res: any) => {
         let parsed = this.jsonParse(res);
         // let parsed = this.jsonParse(res);
-        console.log('THE JSON RAW', parsed);
+        
         return {
           payload: {...parsed},
           success: true,
