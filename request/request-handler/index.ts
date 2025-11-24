@@ -9,7 +9,6 @@ class ApiRequest {
   }
 
   async callApi() {
-    console.log('CALLL API GOT A CALL');
     let resp: any = await this.callWithFetch(this.formatRequest());
     return resp;
   }
@@ -19,13 +18,9 @@ class ApiRequest {
     const res = new ApiResponse();
 
     return new Promise(resolve => {
-      console.log('Service Being Called', service);
-      console.log('CONFIG', config);
+      
       fetch(service, config)
         .then(response => {
-          // const rawRes = response.text();
-          // console.log('THE RESPONSE IS OK', rawRes);
-          // console.log('THE RAWEST RESPONSE', response);
 
           let transformedResponse = res.analyseTransformResponse(response);
           return transformedResponse;
