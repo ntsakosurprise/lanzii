@@ -1,4 +1,4 @@
-import {getQueryString, getRequestBody} from 'app-api/utils';
+import {getQueryString, getRequestBody} from '../../utils/index.ts';
 import ApiResponse from '../response-handler';
 
 class ApiRequest {
