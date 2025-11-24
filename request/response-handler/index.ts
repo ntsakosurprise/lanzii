@@ -124,10 +124,7 @@ class ApiResponse {
       return JSON.parse(text);
     } catch (err) {
       console.log('JSON PARSE HAS FAILED', err);
-      log(
-        'events',
-        'Please note: failed to parse json because Server has responded with a text, a payload object representing this will be created and resolved.',
-      );
+     
       return {
         text,
       };
