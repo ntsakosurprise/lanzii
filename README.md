@@ -125,19 +125,19 @@ we are currently working on our documentation with the help from our first ever 
 
 # Questions & Support
 
-For questions and support please use sukujs's Suppport page on [Github repo](https://github.com/ntsakosurprise/suku/development/SUPPORT.md).
+For questions and support please use lanziijs's Suppport page on [Github repo](https://github.com/ntsakosurprise/lanzii/development/SUPPORT.md).
 
 # Issues
 
-Please make sure to read the [Issue](https://github.com/ntsakosurprise/suku/development/ISSUES.md) Reporting Checklist before opening an issue. Issues not conforming to the guidelines may be closed immediately.
+Please make sure to read the [Issue](https://github.com/ntsakosurprise/lanzii/development/ISSUES.md) Reporting Checklist before opening an issue. Issues not conforming to the guidelines may be closed immediately.
 
 # Changelog
 
-Detailed changes for each release are documented in our [Changelog](https://github.com/ntsakosurprise/suku/development//CHANGELOG.md).
+Detailed changes for each release are documented in our [Changelog](https://github.com/ntsakosurprise/lanzii/development//CHANGELOG.md).
 
 # Release Notes
 
-A summary of release changes can be found in our [Release Notes](https://github.com/ntsakosurprise/suku/development//RELEASE_NOTES.md).
+A summary of release changes can be found in our [Release Notes](https://github.com/ntsakosurprise/lanzii/development//RELEASE_NOTES.md).
 
 # Stay In Touch
 
@@ -145,10 +145,10 @@ A summary of release changes can be found in our [Release Notes](https://github.
 
 # Contribution
 
-Please make sure to read the [Contributing Guide](https://github.com/ntsakosurprise/suku/development/CONTRIBUTING.md) before making a pull request. If you have an suku plugin, add it with a pull request.
+Please make sure to read the [Contributing Guide](https://github.com/ntsakosurprise/lanzii/development/CONTRIBUTING.md) before making a pull request. If you have an lanzii plugin, add it with a pull request.
 
 # Licence
 
-[MIT](https://.github.com/) - see the [LICENSE](https://github.com/ntsakosurprise/suku/development/LICENSE.md) file for details.
+[MIT](https://.github.com/) - see the [LICENSE](https://github.com/ntsakosurprise/lanzii/development/LICENSE.md) file for details.
 
 copyright (c) 2018-present. Ntsako (Surprise) Mashele
