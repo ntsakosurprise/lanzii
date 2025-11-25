@@ -9,7 +9,7 @@ To help us resolve issues efficiently, please follow the guidelines below.
 
 Before creating a new issue, please:
 
-- Check the [existing issues](https://github.com/ntsakosurprise/anzii/issues) to see if your problem has already been reported
+- Check the [existing issues](https://github.com/ntsakosurprise/lanzii/issues) to see if your problem has already been reported
 - Search the documentation for related topics
 
 ---
